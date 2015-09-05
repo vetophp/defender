@@ -144,7 +144,7 @@ To create roles and permissions for your application, just use the Defender's AP
 
 use App\User;
 
-$roleAdmin = Defender::createRole('admin');
+$grupoAdmin = Defender::createRole('admin');
 
 // The first parameter is the permission name
 // The second is the "friendly" version of the name. (usually for you to show it in your application).
