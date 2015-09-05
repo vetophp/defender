@@ -158,7 +158,7 @@ $user->attachPermission($permission);
 $grupoAdmin->attachPermission($permissaoCriarUsuario);
 
 // Now this user is in the Administrators group.
-$user->attachRole($roleAdmin);
+$user->attachRole($grupoAdmin);
 ```
 
 ### Using the middleware
