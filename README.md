@@ -155,7 +155,7 @@ $user = User::find(1);
 $user->attachPermission($permission);
 
 // or you can add the user to a group and that group has the power to rule create users.
-$grupoAdmin->attachPermission($permissaoCriarUsuario);
+$grupoAdmin->attachPermission($permission);
 
 // Now this user is in the Administrators group.
 $user->attachRole($roleAdmin);
